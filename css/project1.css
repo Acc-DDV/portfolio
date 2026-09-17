@@ -2725,7 +2725,7 @@ section .row{
 .contact-wrapper::before{
 
 
-    content:"";
+    content:"⛩";
 
 
     display:block;
@@ -4260,95 +4260,4 @@ html{
 /* ==========================================================================
    END PART 7
    COMPLETE MOONLIT SHRINE JOURNEY CSS
-   ========================================================================== *//* ==========================================================================
-   PROJECT IMAGES — 1366x767 CINEMATIC FRAME
    ========================================================================== */
-
-
-.project-wrapper__image{
-
-    width:100%;
-
-}
-
-
-.thumbnail{
-
-    width:100%;
-
-    aspect-ratio:1366 / 767;
-
-    overflow:hidden;
-
-    position:relative;
-
-    display:flex;
-
-    align-items:center;
-
-    justify-content:center;
-
-}
-
-
-
-.thumbnail img,
-.thumbnail .img-fluid{
-
-
-    width:100%;
-
-
-    height:100%;
-
-
-    aspect-ratio:1366 / 767;
-
-
-    object-fit:cover;
-
-
-    object-position:center;
-
-
-}
-
-
-
-/* Keep the wooden shrine frame */
-
-.thumbnail::before{
-
-    z-index:3;
-
-    pointer-events:none;
-
-}
-
-
-
-/* Mobile preservation */
-
-@media(max-width:600px){
-
-
-    .thumbnail{
-
-
-        aspect-ratio:1366 / 767;
-
-
-    }
-
-
-    .thumbnail img,
-    .thumbnail .img-fluid{
-
-
-        aspect-ratio:1366 / 767;
-
-
-    }
-
-
-}
